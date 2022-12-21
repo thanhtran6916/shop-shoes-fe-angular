@@ -1,0 +1,10 @@
+<p>login works!</p>
+<form [formGroup]="user" (ngSubmit)="onsubmit()">
+  <label for="username">Username</label>
+  <input type="text" id="username" name="username" formControlName="username">
+  <br>
+  <label for="password">Password</label>
+  <input type="password" id="password" name="username" formControlName="password">
+  <i class="fa-solid fa-circle-check"></i>
+  <button type="submit">Login</button>
+</form>
